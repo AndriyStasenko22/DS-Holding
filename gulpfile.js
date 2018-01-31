@@ -27,7 +27,7 @@ gulp.task('less', function () {
         .pipe(autoprefixer(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], {cascade: true})) // Префиксы
         .pipe(cssnano())
         .pipe(gulp.dest('app/css')) // Результат в папку app/css
-        .pipe(gulp.dest('../frontend/web/css/')) // Результат в папку app/css
+        .pipe(gulp.dest('build/css')) // Результат в папку build/css
         .pipe(browserSync.reload({stream: true})); // Обновляем CSS на странице при изменении
 });
 
@@ -37,13 +37,15 @@ gulp.task('libcss', function () {
         .pipe(less())
         .pipe(cssnano())
         .pipe(gulp.dest('app/css')) // Результат в папку app/css
+        .pipe(gulp.dest("build/css")); // Результат в папку build/css
 });
 
 // Таск "include"
 gulp.task('include', function () {
     return gulp.src("app/page/**/*.html") // Источники
         .pipe(include())
-        .pipe(gulp.dest("app"));
+        .pipe(gulp.dest("app"))
+        .pipe(gulp.dest("build"));
     // .pipe(browserSync.reload({stream: true}));
 });
 

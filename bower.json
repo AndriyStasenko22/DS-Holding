@@ -18,15 +18,11 @@
   ],
   "dependencies": {
     "animate.css": "^3.5.2",
-    "bootstrap-datepicker": "^1.6.4",
-    "fancybox": "fancyBox#^3.1.20",
     "font-awesome": "fontawesome#^4.7.0",
-    "inputmask": "^3.3.7",
-    "jquery-ui": "^1.12.1",
-    "jquery": "^3.2.1",
-    "jqueryui-touch-punch": "*"
+    "jquery": "^3.2.1"
   },
   "devDependencies": {
-    "bootstrap": "^3.3.7"
+    "bootstrap": "^3.3.7",
+    "slick-carousel": "^1.8.1"
   }
 }
