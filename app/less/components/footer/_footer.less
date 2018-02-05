@@ -25,7 +25,7 @@
       padding: 63px 15px 0;
     }
     .contact-item:not(:nth-child(2)) {
-      .contact-item-title{
+      .contact-item-title {
         padding-top: 15px;
       }
     }
@@ -176,5 +176,99 @@
     .contact-title-block {
       padding-left: 54px;
     }
+  }
+}
+
+.page-contact-block {
+  background-color: @bg-footer;
+  color: @footer-text-color;
+  padding-top: 70px;
+  .page-contact-header, .copyright-block {
+    width: 100%;
+    max-width: 1683px;
+    margin: 0 auto;
+    padding-left: 54px;
+    padding-right: 54px;
+  }
+  .page-contact-header {
+    position: relative;
+    &:after {
+      position: absolute;
+      content: '';
+      bottom: 35px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: ~'calc(100% - 108px)';
+      height: 3px;
+      background-color: @footer-text-color;
+    }
+  }
+  .page-contact-header-title {
+    font: 400 18px @Helvetica;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .page-contact-form {
+    width: 100%;
+    max-width: 675px;
+    margin: 0 auto;
+    &:extend(.flex);
+    justify-content: space-between;
+    input, textarea {
+      border: 1px solid #c6c6c6;
+      background-color: transparent;
+      padding: 0 20px;
+      margin-bottom: 40px;
+      color: @footer-text-color;
+      font: 400 14px @Helvetica;
+      text-transform: uppercase;
+      letter-spacing: 0.14px;
+      &:focus{
+        &::-webkit-input-placeholder {
+          color: transparent;
+        }
+        &:-moz-placeholder {
+          color: transparent;
+        }
+        &::-moz-placeholder {
+          color: transparent;
+        }
+        &:-ms-input-placeholder {
+          color: transparent;
+        }
+      }
+    }
+    input {
+      width: 318px;
+      height: 70px;
+      line-height: 70px;
+    }
+    textarea{
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+    textarea, .button-block {
+      width: 100%;
+    }
+    .send{
+      position: relative;
+      z-index: 3;
+      display: block;
+      width: 159px;
+      height: 70px;
+      line-height: 70px;
+      text-align: center;
+      background-color: @orange;
+      outline: none;
+      border: none;
+      color: #ffffff;
+      font: 700 16px/70px @Helvetica;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      margin: 0 auto;
+    }
+
   }
 }
