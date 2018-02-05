@@ -1,0 +1,75 @@
+.page-layout{
+  position: relative;
+  background: url('../img/page-bgi.png') top left no-repeat;
+  -webkit-background-size: contain;
+  background-size: contain;
+  padding-left: 173px;
+  height: 100%;
+}
+.page-header{
+  position: relative;
+  margin-top: 111px;
+  padding: 85px 0 75px;
+  &:before, &:after{
+    position: absolute;
+    content: '';
+    height: 6px;
+    background-color: @bg-footer;
+  }
+  &:before{
+    top: 0;
+    right: 0;
+    width: 283px;
+  }
+  &:after{
+    bottom: 0;
+    left: 0;
+    width: 594px;
+  }
+}
+.page-header-container{
+  max-width: 672px;
+}
+.page-header-title{
+  font: 700 30px/1 @Helvetica;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  color: @orange;
+  margin-bottom: 60px;
+}
+.page-header-short-info{
+  color: #000000;
+  font: 500 18px/30px @Helvetica;
+  letter-spacing: 0.18px;
+}
+
+.page-flex-wrap{
+  &:extend(.flex);
+  justify-content: flex-start;
+}
+
+.page-footer{
+  position: relative;
+  padding-bottom: 20px;
+  &:before{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 6px;
+    content:'';
+    background-color: @bg-footer;
+  }
+}
+
+.page-consulting{
+  .page-body{
+    padding-top: 140px;
+  }
+  .page-item{
+    margin-bottom: 96px;
+  }
+  .page-footer {
+    min-height: 154px;
+  }
+}

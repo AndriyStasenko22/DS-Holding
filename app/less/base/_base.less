@@ -34,10 +34,21 @@ img {
   max-width: 100%;
 }
 
+input, textarea, button, select {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  box-shadow: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  outline: none;
+}
+
 // Section title block
 
 .section-title-block {
-  &:extend(.flex);
+  display: flex;
+  flex-flow: row nowrap;
   align-items: stretch;
   justify-content: flex-start;
 }
@@ -59,8 +70,23 @@ img {
     left: 9px;
     right: 9px;
     content: '';
-    border: 1px solid #ffffff;
+    border: 2px solid #ffffff;
     display: block;
+    opacity: 0.7;
+  }
+  @media only screen and (max-width: 768px) {
+    margin-right: 50px;
+    font-size: 24px;
+    width: 80px;
+    height: 82px;
+    flex: 0 0 80px;
+  }
+  @media only screen and (max-width: 480px) {
+    margin-right: 13px;
+    font-size: 18px;
+    width: 60px;
+    height: 62px;
+    flex: 0 0 60px;
   }
 }
 
@@ -75,6 +101,14 @@ img {
   font: 700 60px/1 @Helvetica;
   text-transform: uppercase;
   letter-spacing: 0.6px;
+  @media only screen and (max-width: 768px) {
+    font-size: 50px;
+    letter-spacing: 0.5px;
+  }
+  @media only screen and (max-width: 480px) {
+    font-size: 30px;
+    letter-spacing: 0.3px;
+  }
 }
 
 .section-short-info {

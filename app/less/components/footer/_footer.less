@@ -1,14 +1,15 @@
 // 04 Contact
 .contact {
+  padding-top: 93px;
   .contact-container {
     width: 100%;
-    max-width: 1672px;
+    max-width: 1683px;
     padding: 0 54px;
     margin: 0 auto;
   }
   .contact-title-block {
     width: 100%;
-    padding-left: 126px;
+    padding-left: 175px;
   }
   .contact-content-block {
     width: 100%;
@@ -17,13 +18,16 @@
     color: @footer-text-color;
   }
   .contact-wrap {
-    //&:extend(.flex);
     display: flex;
     justify-content: space-between;
-    padding: 140px 0 40px;
+    padding: 148px 0 40px;
     .contact-item:not(:first-child) {
-      //  width: ~'calc((100% - 387px)/3)';
-      padding: 0 15px;
+      padding: 63px 15px 0;
+    }
+    .contact-item:not(:nth-child(2)) {
+      .contact-item-title{
+        padding-top: 15px;
+      }
     }
   }
   .contact-map-block {
@@ -94,7 +98,7 @@
       font: 400 18px @Helvetica;
       text-transform: uppercase;
       letter-spacing: 0.9px;
-      margin-bottom: 42px;
+      margin-bottom: 35px;
     }
     .sign-form {
       .form-group {

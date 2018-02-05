@@ -1,5 +1,99 @@
-.navigation-block{
-  width: 65px;
-  height: 200px;
-  background-color: @orange;
+.navigation-block {
+  height: 308px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 346px;
+
+  .navigation-content {
+    position: relative;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    &:after {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 66px;
+      content: '';
+      height: 100%;
+      background-color: @orange;
+      z-index: 1;
+    }
+  }
+  .navigation-button-up, .navigation-button-down {
+    position: absolute;
+    right: 20px;
+    width: 14px;
+    height: 14px;
+    border-top: 3px solid @nav-item-color;
+    border-right: 3px solid @nav-item-color;
+    z-index: 2;
+    &:hover, &:active {
+      border-color: #ffffff;
+    }
+  }
+
+  .navigation-button-up {
+    transform: rotate(-45deg);
+    top: 26px;
+  }
+
+  .navigation-button-down {
+    transform: rotate(135deg);
+    bottom: 26px;
+  }
+
+  .navigation-list {
+    z-index: 2;
+    li {
+      font-size: 0;
+      display: block;
+      text-align: right;
+      margin-bottom: 15px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      .navigation-item {
+        position: relative;
+        padding-right: 70px;
+        color: @nav-item-color;
+        font: 500 16px/1 @Helvetica;
+        letter-spacing: 1.6px;
+        white-space: nowrap;
+        &:hover, &:active {
+          color: #000000;
+          font-weight: 600;
+        }
+        &:active {
+          &:after {
+            border-width: 2px;
+            border-color: #fff;
+          }
+        }
+        &:after {
+          position: absolute;
+          content: '';
+          top: 50%;
+          margin-top: -5px;
+          right: 24px;
+          width: 10px;
+          height: 10px;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          border-radius: 50%;
+          border: 1px solid @nav-item-color;
+          transition: all .3s;
+          z-index: 2;
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 480px){
+    height: 203px;
+    .navigation-content:after{
+      width: 44px;
+    }
+  }
 }
