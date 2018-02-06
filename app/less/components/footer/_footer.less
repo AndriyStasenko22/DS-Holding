@@ -19,10 +19,11 @@
   }
   .contact-wrap {
     display: flex;
+    //&:extend(.flex);
     justify-content: space-between;
     padding: 148px 0 40px;
     .contact-item:not(:first-child) {
-      padding: 63px 15px 0;
+      padding: 63px 31px 0;
     }
     .contact-item:not(:nth-child(2)) {
       .contact-item-title {
@@ -137,6 +138,7 @@
           transition: background-color .3s;
           &:hover {
             background-color: transparent;
+            color: @orange;
           }
         }
       }
@@ -174,7 +176,57 @@
   }
   @media only screen and (max-width: 768px) {
     .contact-title-block {
-      padding-left: 54px;
+      padding-left: 0;
+    }
+
+    .contact-item {
+      &:nth-child(2) {
+        order: 2;
+      }
+      &:nth-child(3) {
+        order: 3;
+      }
+      &:last-child {
+        order: 1;
+      }
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    padding-top: 0;
+    .contact-container {
+      padding: 0;
+    }
+
+    .contact-wrap {
+      padding: 0;
+      flex-flow: row wrap;
+      justify-content: center;
+    }
+
+    .contact-item {
+      width: 100%;
+      &:nth-child(3) {
+        display: none;
+      }
+      &:first-child {
+        width: 100%;
+        height: 95px;
+        .contact-map-block {
+          width: 100%;
+          height: 95px;
+          margin-bottom: 15px;
+        }
+        .contact-map-coordinates {
+          text-align: center;
+          font-size: 14px;
+        }
+      }
+    }
+
+    .contact {
+      .company-info, .social-list {
+        text-align: center;
+      }
     }
   }
 }
@@ -225,7 +277,7 @@
       font: 400 14px @Helvetica;
       text-transform: uppercase;
       letter-spacing: 0.14px;
-      &:focus{
+      &:focus {
         &::-webkit-input-placeholder {
           color: transparent;
         }
@@ -245,14 +297,14 @@
       height: 70px;
       line-height: 70px;
     }
-    textarea{
+    textarea {
       padding-top: 30px;
       padding-bottom: 30px;
     }
     textarea, .button-block {
       width: 100%;
     }
-    .send{
+    .send {
       position: relative;
       z-index: 3;
       display: block;
@@ -262,12 +314,21 @@
       text-align: center;
       background-color: @orange;
       outline: none;
-      border: none;
+      border: 2px solid @orange;
       color: #ffffff;
       font: 700 16px/70px @Helvetica;
       text-transform: uppercase;
       letter-spacing: 0.8px;
       margin: 0 auto;
+      -webkit-transition: background-color .3s, color .3s;
+      -moz-transition: background-color .3s, color .3s;
+      -ms-transition: background-color .3s, color .3s;
+      -o-transition: background-color .3s, color .3s;
+      transition: background-color .3s, color .3s;
+      &:hover {
+        background-color: @bg-footer;
+        color: @orange;
+      }
     }
 
   }

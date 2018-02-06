@@ -1,6 +1,12 @@
+
+.home-layout .menu-logo-block>a{
+  pointer-events: none;
+  cursor: default;
+}
+
 .home {
   position: relative;
-  min-height: 950px;
+  min-height: 947px;
   background: url('../img/home-bgi.png') top right no-repeat;
   padding-bottom: 76px;
   .home-header {
@@ -58,7 +64,7 @@
     position: relative;
     overflow: hidden;
     height: 301px;
-    margin-top: 73px;
+    margin-top: 71px;
   }
   .home-circle-block {
     position: absolute;
@@ -140,7 +146,7 @@
   }
   .about-slider-block {
     position: relative;
-    padding-bottom: 85px;
+    padding-bottom: 93px;
     &:after{
       position: absolute;
       bottom: 0;
@@ -174,7 +180,7 @@
   }
   .slider-number-block {
     position: absolute;
-    top: 36%;
+    top: 35.5%;
     left: 72.8%;
     width: 219px;
     height: 105px;
@@ -240,13 +246,14 @@
       font: 700 30px/1 @Helvetica;
       letter-spacing: 0.3px;
       text-transform: uppercase;
-      margin-bottom: 40px;
+      margin-bottom: 25px;
       color: #ffffff;
     }
     .slider-text-info {
       font: 400 16px/24px @Helvetica;
-      margin-bottom: 40px;
+      margin-bottom: 20px;
       color: #cfcfcf;
+      letter-spacing: 1.16px;
     }
     .slider-text-button {
       position: relative;
@@ -340,27 +347,34 @@
   .partners-circle-block{
     position: absolute;
     bottom: 0;
-    left: 50%;
-    z-index: -1;
-    transform: translateX(-22%);
-    .partners-circle-content{
-      position: relative;
-      width: 931px;
-      height: 447px;
-      overflow-y: hidden;
-      &:after{
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 931px;
-        height: 931px;
-        content: '';
-        background-color: @violet;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        border-radius: 50%;
-      }
-    }
+    right: 1.82%;
+    transform: translateX(-21%);
+    max-width: 931px;
+    width: 60.67%;
+
+    height: 447px;
+    background: url('../img/partners.png') bottom left no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+
+    //.partners-circle-content{
+    //  position: relative;
+    //  width: 100%;
+    //  height: 100%;
+    //  overflow-y: hidden;
+    //  &:after{
+    //    position: absolute;
+    //    top: 0;
+    //    left: 0;
+    //    width: 100%;
+    //    height: 931px;
+    //    content: '';
+    //    background-color: @violet;
+    //    -webkit-border-radius: 50%;
+    //    -moz-border-radius: 50%;
+    //    border-radius: 50%;
+    //  }
+    //}
   }
   .partners-wrap {
     width: 100%;
@@ -373,9 +387,11 @@
     margin-bottom: 162px;
     overflow-y: hidden;
     .partners-item{
+      position: relative;
+      z-index: 2;
       &:nth-child(2){
         width: 42%;
-        margin-top: 120px;
+        margin-top: 115px;
         p{
           margin-bottom: 50px;
           color: #102323;
@@ -392,8 +408,10 @@
         }
       }
       &:last-child{
-        width: 46.88%;
-        margin-top: -116px;
+        width: 47%;
+        margin-top: -125px;
+        padding-right: 24px;
+        align-self: flex-end;
       }
     }
     //&:after{
