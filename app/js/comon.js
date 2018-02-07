@@ -35,7 +35,7 @@ $(document).ready(function () {
                     }
                 },
                 {
-                    breakpoint: 481,
+                    breakpoint: 651,
                     settings: {
                         centerPadding: '0',
                         centerMode: false,

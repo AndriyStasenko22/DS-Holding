@@ -63,6 +63,7 @@ input, textarea, button, select {
   font: 700 36px/1 @Helvetica;
   margin-right: 70px;
   z-index: 2;
+  flex: 0 0 119px;
   &:before {
     position: absolute;
     top: 10px;
@@ -94,6 +95,7 @@ input, textarea, button, select {
   &:extend(.flex);
   flex-direction: column;
   justify-content: space-between;
+  align-items: flex-start;
 }
 
 .section-title {
@@ -142,7 +144,7 @@ input, textarea, button, select {
       }
     }
   }
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 615px) {
     margin: 0;
     padding: 30px 11px;
     font-size: 12px;
@@ -194,7 +196,7 @@ input, textarea, button, select {
       height: 2px;
     }
   }
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 615px) {
     margin: 0;
     .scroll-up {
       width: 60px;
