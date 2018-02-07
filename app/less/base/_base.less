@@ -130,7 +130,7 @@ input, textarea, button, select {
   span {
     color: #fefefe;
   }
-  @media only screen and (max-width: 992px){
+  @media only screen and (max-width: 992px) {
     font-size: 14px;
   }
   @media only screen and (max-width: 768px) {
@@ -139,7 +139,7 @@ input, textarea, button, select {
     margin-top: -36px;
     .copyright-info {
       width: ~'calc((100% - 97px)/2)';
-      &:last-child{
+      &:last-child {
         text-align: right;
       }
     }
@@ -148,10 +148,10 @@ input, textarea, button, select {
     margin: 0;
     padding: 30px 11px;
     font-size: 12px;
-    .copyright-info{
+    .copyright-info {
       width: 100% !important;
       text-align: center;
-      &:last-child{
+      &:last-child {
         text-align: center;
         margin-top: 10px;
       }
@@ -190,18 +190,21 @@ input, textarea, button, select {
       color: @orange;
     }
   }
-  @media only screen and (max-width: 768px) {
-    margin: 0 -54px;
-    &:before {
-      height: 2px;
+
+  .menu-visible-block {
+    @media only screen and (max-width: 768px) {
+      margin: 0 -54px;
+      &:before {
+        height: 2px;
+      }
     }
-  }
-  @media only screen and (max-width: 615px) {
-    margin: 0;
-    .scroll-up {
-      width: 60px;
-      height: 60px;
-      line-height: 60px;
+    @media only screen and (max-width: 615px) {
+      margin: 0;
+      .scroll-up {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+      }
     }
   }
 }

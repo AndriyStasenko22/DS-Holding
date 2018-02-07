@@ -363,6 +363,10 @@
     margin: 0 auto;
     padding-left: 54px;
     padding-right: 54px;
+    @media only screen and (max-width: 500px) {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
   }
   .page-contact-header {
     position: relative;
@@ -375,6 +379,9 @@
       width: ~'calc(100% - 108px)';
       height: 3px;
       background-color: @footer-text-color;
+      @media only screen and (max-width: 768px) {
+        width: 100%;
+      }
     }
   }
   .page-contact-header-title {
@@ -383,6 +390,10 @@
     letter-spacing: 0.9px;
     text-align: center;
     margin-bottom: 40px;
+    @media only screen and (max-width: 500px) {
+      margin-bottom: 30px;
+      letter-spacing: normal;
+    }
   }
   .page-contact-form {
     width: 100%;
@@ -454,6 +465,22 @@
         color: @orange;
       }
     }
-
+    @media only screen and (max-width: 756px) {
+      flex-direction: column;
+      align-items: center;
+      input, textarea {
+        width: 318px;
+        margin-bottom: 12px;
+      }
+      textarea {
+        top: 0px;
+      }
+    }
+    @media only screen and (max-width: 378px) {
+      input, textarea {
+        width: 100%;
+      }
+    }
   }
+
 }
