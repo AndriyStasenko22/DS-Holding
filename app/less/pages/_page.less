@@ -1,8 +1,26 @@
 .page-layout {
   position: relative;
   background: url('../img/page-bgi.png') top left no-repeat;
-  padding-left: 173px;
+  padding-left: 273px;
   padding-top: 111px;
+  .menu-visible-block .menu-container{
+    padding-bottom: 120px;
+  }
+  .section-number-wrap{
+    &>span{
+      display: none;
+    }
+    &:after{
+      width: 81px;
+      height: 64px;
+      content: '';
+      position: absolute;
+      background: transparent url("../img/check.png") top left / 100% 100% no-repeat;
+      z-index: 2;
+      top: 17px;
+      right: 0;
+    }
+  }
 }
 
 .page-header-block {
@@ -36,13 +54,13 @@
   text-transform: uppercase;
   letter-spacing: 0.3px;
   color: @orange;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 
 .page-header-short-info {
   color: #000000;
   font: 500 18px/30px @Helvetica;
-  letter-spacing: 0.18px;
+  letter-spacing: 1.2px;
 }
 
 .page-flex-wrap {
@@ -106,18 +124,21 @@
   }
   .page-flex-wrap {
     width: 100%;
-    max-width: 1112px;
+    max-width: 1248px;
   }
   .page-item {
-    margin-bottom: 96px;
-    width: 45%;
+    margin-bottom: 89px;
+    width: 50%;
     padding-right: 25px;
+    &:last-child{
+      margin-bottom: 63px;
+    }
   }
   .page-list li:before {
     top: 9px;
   }
   .page-block-title {
-    margin-bottom: 45px;
+    margin-bottom: 30px;
   }
   .page-footer {
     min-height: 158px;
@@ -143,7 +164,7 @@
   }
   .page-flex-wrap {
     max-width: 768px;
-    margin-top: 77px;
+    margin-top: 59px;
   }
   .page-item {
     width: 358px;
@@ -160,6 +181,7 @@
   }
   .page-block-title {
     margin-bottom: 20px;
+    text-transform: none;
   }
   .page-block-text {
     color: #000000;
@@ -167,12 +189,12 @@
     letter-spacing: 1.6px;
   }
   .page-body-info-blcok {
-    margin: 62px 0 107px;
+    margin: 40px 0 137px;
     max-width: 768px;
     color: #000000;
     font: 400 16px/18px @Helvetica;
     strong {
-      margin-bottom: 45px;
+      margin-bottom: 55px;
       display: block;
     }
   }
@@ -201,7 +223,7 @@
   .page-flex-wrap {
     max-width: 805px;
     width: 100%;
-    margin: 90px 0 55px;
+    margin: 75px 0 85px;
   }
   .page-item {
     width: 355px;
@@ -217,10 +239,10 @@
   .page-body-info-blcok {
     max-width: 1104px;
     text-align: right;
-    margin-bottom: 50px;
+    margin-bottom: 45px;
   }
   .page-block-title {
-    margin-bottom: 45px;
+    margin-bottom: 30px;
   }
   .page-list {
     max-width: 750px;
@@ -265,17 +287,19 @@
     &.red-block {
       color: @orange;
       max-width: 750px;
-      margin-top: 60px;
+      margin-top: 80px;
     }
   }
   .page-body {
     padding-top: 68px;
-    padding-bottom: 56px;
+    padding-bottom: 70px;
     .page-body-info-blcok:not(.red-block) {
       max-width: 520px;
     }
   }
   .page-footer{
+    min-height: 126px;
+    padding-bottom: 75px;
     .page-body-info-blcok{
       margin: 20px 0;
     }
