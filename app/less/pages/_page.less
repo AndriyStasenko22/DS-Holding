@@ -23,12 +23,17 @@
   }
   .navigation-block {
     position: relative;
-    margin-top: 235px;
+    margin-top: 80px;
     float: right;
     margin-left: 20px;
     margin-bottom: 20px;
     @media only screen and (max-width: 500px) {
-      margin-top: 50px;
+      margin-top: 20px;
+      text-align: right;
+      float: none;
+      width: 100%;
+      margin-left: 0;
+
     }
   }
   @media only screen and (max-width: 1340px) {
@@ -65,7 +70,7 @@
   //margin-top: 111px;
   padding: 85px 0 75px;
   margin-left: 75px;
-  padding-right: 283px;
+  //padding-right: 283px;
   &:before, &:after {
     position: absolute;
     content: '';
@@ -86,7 +91,7 @@
     margin-left: 0;
     padding-left: 54px;
     padding-top: 0;
-    padding-right: 25%;
+    //padding-right: 25%;
     &:before {
       top: 20px;
       width: 23.4375%;
@@ -102,11 +107,12 @@
   }
 }
 
-.page-header-container {
-  max-width: 672px;
-}
+//.page-header-container {
+//  max-width: 672px;
+//}
 
 .page-header-title {
+  max-width: 672px;
   font: 700 30px/1 @Helvetica;
   text-transform: uppercase;
   letter-spacing: 0.3px;
@@ -114,16 +120,24 @@
   margin-bottom: 50px;
   @media only screen and (max-width: 500px) {
     font-size: 24px;
+    margin-bottom: 0;
+  }
+  @media only screen and (max-width: 768px) {
+    padding-right: 25%;
   }
 }
 
 .page-header-short-info {
+  max-width: 672px;
   color: #000000;
   font: 500 18px/30px @Helvetica;
   letter-spacing: 1.2px;
   @media only screen and (max-width: 500px) {
     font-size: 12px;
     line-height: 16px;
+  }
+  @media only screen and (max-width: 768px) {
+    padding-right: 25%;
   }
 }
 

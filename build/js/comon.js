@@ -7,6 +7,13 @@ $(document).ready(function () {
     //     // console.log(location);
     // }
 
+    $(document).on('click', '.quick-list a', function (e) {
+       e.preventDefault();
+       var id_element = $(this).attr('href');
+       var scroll_element = $(id_element);
+       $('html, body').animate({'scrollTop':scroll_element.offset().top},700);
+    });
+
     $('.navigation-list .navigation-item').each(function () {
        if($(this).attr('href')===location){
            $(this).addClass('active');
@@ -35,7 +42,7 @@ $(document).ready(function () {
                     }
                 },
                 {
-                    breakpoint: 481,
+                    breakpoint: 651,
                     settings: {
                         centerPadding: '0',
                         centerMode: false,
