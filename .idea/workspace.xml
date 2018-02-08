@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f323376-5e92-44d2-99b2-e40a44375047" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/consulting.html" afterPath="$PROJECT_DIR$/app/consulting.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/main.css" afterPath="$PROJECT_DIR$/app/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/implementation.html" afterPath="$PROJECT_DIR$/app/implementation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/less/pages/_page.less" afterPath="$PROJECT_DIR$/app/less/pages/_page.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/logistics.html" afterPath="$PROJECT_DIR$/app/logistics.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/page/consulting.html" afterPath="$PROJECT_DIR$/app/page/consulting.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/page/implementation.html" afterPath="$PROJECT_DIR$/app/page/implementation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/page/logistics.html" afterPath="$PROJECT_DIR$/app/page/logistics.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/page/services.html" afterPath="$PROJECT_DIR$/app/page/services.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/services.html" afterPath="$PROJECT_DIR$/app/services.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/consulting.html" afterPath="$PROJECT_DIR$/build/consulting.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/main.css" afterPath="$PROJECT_DIR$/build/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/implementation.html" afterPath="$PROJECT_DIR$/build/implementation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/logistics.html" afterPath="$PROJECT_DIR$/build/logistics.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/services.html" afterPath="$PROJECT_DIR$/build/services.html" />
-    </list>
+    <list default="true" id="1f323376-5e92-44d2-99b2-e40a44375047" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -129,8 +112,8 @@
       <file leaf-file-name="implementation.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/page/implementation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="7" lean-forward="false" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+            <state relative-caret-position="289">
+              <caret line="38" column="18" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -327,12 +310,12 @@
       <workItem from="1517909898410" duration="14008000" />
       <workItem from="1517950337807" duration="13889000" />
       <workItem from="1518029520966" duration="13598000" />
-      <workItem from="1518074498009" duration="2504000" />
+      <workItem from="1518074498009" duration="3199000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140117000" />
+    <option name="totallyTimeSpent" value="140812000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
@@ -723,8 +706,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/page/implementation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="7" lean-forward="false" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+        <state relative-caret-position="289">
+          <caret line="38" column="18" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
           <folding />
         </state>
       </provider>
