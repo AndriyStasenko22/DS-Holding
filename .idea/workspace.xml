@@ -3,10 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="1f323376-5e92-44d2-99b2-e40a44375047" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/consulting.html" afterPath="$PROJECT_DIR$/build/consulting.html" />
+<<<<<<< Updated upstream
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/logistics.html" afterPath="$PROJECT_DIR$/build/logistics.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/implementation.html" afterPath="$PROJECT_DIR$/build/implementation.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/main.css" afterPath="$PROJECT_DIR$/build/css/main.css" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/main.css" afterPath="$PROJECT_DIR$/build/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/implementation.html" afterPath="$PROJECT_DIR$/build/implementation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/logistics.html" afterPath="$PROJECT_DIR$/build/logistics.html" />
+>>>>>>> Stashed changes
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/services.html" afterPath="$PROJECT_DIR$/build/services.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,7 +68,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/page/index.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="17">
+=======
+            <state relative-caret-position="-437">
+>>>>>>> Stashed changes
               <caret line="50" column="27" lean-forward="false" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
               <folding />
             </state>
@@ -91,7 +102,11 @@
       <file leaf-file-name="implementation.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/page/implementation.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="1173">
+=======
+            <state relative-caret-position="413">
+>>>>>>> Stashed changes
               <caret line="69" column="83" lean-forward="false" selection-start-line="69" selection-start-column="83" selection-end-line="69" selection-end-column="83" />
               <folding />
             </state>
@@ -211,7 +226,10 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+<<<<<<< Updated upstream
       <pane id="Scratches" />
+=======
+>>>>>>> Stashed changes
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -240,6 +258,10 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< Updated upstream
+=======
+      <pane id="Scratches" />
+>>>>>>> Stashed changes
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -285,12 +307,19 @@
       <workItem from="1518029520966" duration="13598000" />
       <workItem from="1518074498009" duration="3199000" />
       <workItem from="1518722008634" duration="128000" />
+<<<<<<< Updated upstream
       <workItem from="1518722515147" duration="2000" />
+=======
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="140942000" />
+=======
+    <option name="totallyTimeSpent" value="140940000" />
+>>>>>>> Stashed changes
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -602,7 +631,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/page/implementation.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="1173">
+=======
+        <state relative-caret-position="413">
+>>>>>>> Stashed changes
           <caret line="69" column="83" lean-forward="false" selection-start-line="69" selection-start-column="83" selection-end-line="69" selection-end-column="83" />
           <folding />
         </state>
@@ -618,7 +651,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/page/index.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="17">
+=======
+        <state relative-caret-position="-437">
+>>>>>>> Stashed changes
           <caret line="50" column="27" lean-forward="false" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
           <folding />
         </state>
