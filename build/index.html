@@ -45,25 +45,28 @@
         </div>
     </div>
     <div class="menu-block">
-        <div class="menu-header">
-            <div class="menu-title">Menu</div>
-            <a href="#" class="menu-close-button"></a>
-        </div>
-        <div class="menu-body">
-            <ul class="menu-list">
-                <li><a class='menu-item' href="index.html">HOME</a></li>
-                <li><a class='menu-item' href="#">About us</a></li>
-                <li><a class='menu-item' href="#">FOR PARTERS</a></li>
-                <li><a class='menu-item' href="#">CONTACT</a></li>
-            </ul>
-        </div>
-        <div class="menu-footer">
-            <div class="menu-footer-title">If you have any questions<br>You can contact our managers</div>
-            <div class="menu-contact-info">
-                <p>+ 48 733 184 040</p>
-                <p>info@ds-holding.pl</p>
+        <div class="menu-block-content">
+            <div class="menu-header">
+                <div class="menu-title">Menu</div>
+                <a href="#" class="menu-close-button"></a>
+            </div>
+            <div class="menu-body">
+                <ul class="menu-list">
+                    <li><a class='menu-item' href="#home">HOME</a></li>
+                    <li><a class='menu-item' href="#about">About us</a></li>
+                    <li><a class='menu-item' href="#partners">FOR PARTERS</a></li>
+                    <li><a class='menu-item' href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="menu-footer">
+                <div class="menu-footer-title">If you have any questions<br>You can contact our managers</div>
+                <div class="menu-contact-info">
+                    <p>+ 48 733 184 040</p>
+                    <p>info@ds-holding.pl</p>
+                </div>
             </div>
         </div>
+        <div class="menu-block-figure"></div>
     </div>
     <section class="home" id="home">
         <div class="home-header">
@@ -126,9 +129,17 @@
             </ul>
             <div class="slider-text-block">
                 <div class="slider-text-title">DS Holding</div>
-                <div class="slider-text-info">Our proposal is addressed, in particular, to large, small and medium-sized
-                    foreign entrepreneurs and individuals. We provide comprehensive and individual consulting services
-                    that will satisfy the most demanding customers.
+                <div class="slider-text-content">
+                    <div class="slider-text-info active">Our proposal is addressed, in particular, to large, small and
+                        medium-sized foreign entrepreneurs and individuals. We provide comprehensive and individual
+                        consulting services that will satisfy the most demanding customers.
+                    </div>
+                    <div class="slider-text-info">
+                        Our offices are located in Warsaw. Since its foundation, we have already provided services to
+                        more than 150 corporate clients, gradually becoming a company in which highly qualified
+                        specialists work. We are organized in five departments - tax, corporate, judicial, immigration
+                        and property.
+                    </div>
                 </div>
                 <a class="slider-text-button" href="#"></a>
             </div>
@@ -175,14 +186,14 @@
             <form action="" class="message-form">
                 <div class="form-group"><input type="text"><span class="placeholder">Full Name</span></div>
                 <div class="form-group"><input type="email"><span class="placeholder">E-mail</span></div>
-                <div class="form-group"><textarea rows="1"></textarea><span class="placeholder">Message</span></div>
+                <div class="form-group"><textarea></textarea><span class="placeholder">Message</span></div>
                 <div class="form-group">
                     <button class="send-message">Send message</button>
                 </div>
             </form>
         </div>
     </section>
-    <div class="contact">
+    <div class="contact" id="contact">
         <div class="contact-container">
             <div class="contact-title-block">
                 <div class="section-title-block">
