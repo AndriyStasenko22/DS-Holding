@@ -20,6 +20,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/consulting.html" afterPath="$PROJECT_DIR$/build/consulting.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/main.css" afterPath="$PROJECT_DIR$/build/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/implementation.html" afterPath="$PROJECT_DIR$/build/implementation.html" />
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/logistics.html" afterPath="$PROJECT_DIR$/build/logistics.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/services.html" afterPath="$PROJECT_DIR$/build/services.html" />
@@ -37,9 +40,12 @@
         <entry file="file://$PROJECT_DIR$/app/less/pages/_page.less">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             <state relative-caret-position="731">
               <caret line="43" column="25" lean-forward="false" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
 =======
+=======
+>>>>>>> Stashed changes
             <state relative-caret-position="4136">
               <caret line="461" column="22" lean-forward="false" selection-start-line="461" selection-start-column="22" selection-end-line="461" selection-end-column="22" />
 >>>>>>> Stashed changes
@@ -58,6 +64,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< Updated upstream
       <file leaf-file-name="_footer.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/less/components/footer/_footer.less">
           <provider selected="true" editor-type-id="text-editor">
@@ -66,6 +73,21 @@
               <caret line="405" column="29" lean-forward="false" selection-start-line="405" selection-start-column="29" selection-end-line="405" selection-end-column="29" />
               <folding />
 =======
+=======
+      <file leaf-file-name="pages-footer.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/components/footer/pages-footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_footer.less" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/less/components/footer/_footer.less">
+          <provider selected="true" editor-type-id="text-editor">
+>>>>>>> Stashed changes
             <state relative-caret-position="425">
               <caret line="384" column="5" lean-forward="true" selection-start-line="384" selection-start-column="5" selection-end-line="384" selection-end-column="5" />
               <folding>
@@ -80,8 +102,13 @@
         <entry file="file://$PROJECT_DIR$/app/components/footer/home-footer.html">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             <state relative-caret-position="714">
               <caret line="42" column="31" lean-forward="false" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="41" />
+=======
+            <state relative-caret-position="425">
+              <caret line="69" column="11" lean-forward="false" selection-start-line="69" selection-start-column="11" selection-end-line="71" selection-end-column="18" />
+>>>>>>> Stashed changes
 =======
             <state relative-caret-position="425">
               <caret line="69" column="11" lean-forward="false" selection-start-line="69" selection-start-column="11" selection-end-line="71" selection-end-column="18" />
@@ -100,6 +127,9 @@
 =======
             <state relative-caret-position="306">
               <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
               <folding />
             </state>
@@ -110,9 +140,12 @@
         <entry file="file://$PROJECT_DIR$/app/page/index.html">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             <state relative-caret-position="-437">
               <caret line="50" column="27" lean-forward="false" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
 =======
+=======
+>>>>>>> Stashed changes
             <state relative-caret-position="850">
               <caret line="50" column="31" lean-forward="false" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="36" />
 >>>>>>> Stashed changes
@@ -124,6 +157,7 @@
       <file leaf-file-name="_home.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/less/pages/home/_home.less">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
             <state relative-caret-position="3434">
               <caret line="202" column="5" lean-forward="false" selection-start-line="202" selection-start-column="5" selection-end-line="202" selection-end-column="5" />
@@ -141,6 +175,10 @@
             <state relative-caret-position="17">
               <caret line="175" column="5" lean-forward="false" selection-start-line="175" selection-start-column="5" selection-end-line="175" selection-end-column="5" />
 >>>>>>> Stashed changes
+=======
+            <state relative-caret-position="17">
+              <caret line="175" column="5" lean-forward="false" selection-start-line="175" selection-start-column="5" selection-end-line="175" selection-end-column="5" />
+>>>>>>> Stashed changes
               <folding />
             </state>
           </provider>
@@ -150,8 +188,13 @@
         <entry file="file://$PROJECT_DIR$/app/page/implementation.html">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             <state relative-caret-position="413">
               <caret line="69" column="83" lean-forward="false" selection-start-line="69" selection-start-column="83" selection-end-line="69" selection-end-column="83" />
+=======
+            <state relative-caret-position="209">
+              <caret line="192" column="2" lean-forward="false" selection-start-line="192" selection-start-column="4" selection-end-line="200" selection-end-column="5" />
+>>>>>>> Stashed changes
 =======
             <state relative-caret-position="209">
               <caret line="192" column="2" lean-forward="false" selection-start-line="192" selection-start-column="4" selection-end-line="200" selection-end-column="5" />
@@ -220,6 +263,7 @@
         <option value="$PROJECT_DIR$/app/components/navigation/navigation.html" />
         <option value="$PROJECT_DIR$/app/components/menu/menu.html" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/app/components/footer/pages-footer.html" />
 =======
         <option value="$PROJECT_DIR$/app/page/consulting.html" />
@@ -231,16 +275,28 @@
 =======
         <option value="$PROJECT_DIR$/app/less/pages/_page.less" />
 >>>>>>> Stashed changes
+=======
+        <option value="$PROJECT_DIR$/app/page/consulting.html" />
+        <option value="$PROJECT_DIR$/app/less/components/navigation/_navigation.less" />
+        <option value="$PROJECT_DIR$/app/less/components/menu/_menu.less" />
+        <option value="$PROJECT_DIR$/app/less/pages/_page.less" />
+>>>>>>> Stashed changes
         <option value="$PROJECT_DIR$/app/page/index.html" />
         <option value="$PROJECT_DIR$/app/components/footer/home-footer.html" />
         <option value="$PROJECT_DIR$/app/js/comon.js" />
         <option value="$PROJECT_DIR$/app/less/pages/home/_home.less" />
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/app/less/pages/_page.less" />
         <option value="$PROJECT_DIR$/app/page/consulting.html" />
         <option value="$PROJECT_DIR$/app/page/logistics.html" />
         <option value="$PROJECT_DIR$/app/page/services.html" />
         <option value="$PROJECT_DIR$/app/page/implementation.html" />
+=======
+        <option value="$PROJECT_DIR$/app/less/base/_base.less" />
+        <option value="$PROJECT_DIR$/app/components/footer/pages-footer.html" />
+        <option value="$PROJECT_DIR$/app/less/components/footer/_footer.less" />
+>>>>>>> Stashed changes
 =======
         <option value="$PROJECT_DIR$/app/less/base/_base.less" />
         <option value="$PROJECT_DIR$/app/components/footer/pages-footer.html" />
@@ -305,7 +361,11 @@
               <item name="DS-Holding" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               <item name="js" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+>>>>>>> Stashed changes
 =======
               <item name="components" type="462c0819:PsiDirectoryNode" />
 >>>>>>> Stashed changes
@@ -315,7 +375,12 @@
               <item name="DS-Holding" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               <item name="page" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="footer" type="462c0819:PsiDirectoryNode" />
+>>>>>>> Stashed changes
 =======
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="footer" type="462c0819:PsiDirectoryNode" />
@@ -371,8 +436,12 @@
       <workItem from="1517950337807" duration="13889000" />
       <workItem from="1518029520966" duration="13598000" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <workItem from="1518074498009" duration="3199000" />
       <workItem from="1518722008634" duration="128000" />
+=======
+      <workItem from="1518118986815" duration="2758000" />
+>>>>>>> Stashed changes
 =======
       <workItem from="1518118986815" duration="2758000" />
 >>>>>>> Stashed changes
@@ -381,7 +450,11 @@
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="140940000" />
+=======
+    <option name="totallyTimeSpent" value="140371000" />
+>>>>>>> Stashed changes
 =======
     <option name="totallyTimeSpent" value="140371000" />
 >>>>>>> Stashed changes
@@ -611,10 +684,17 @@
       </provider>
     </entry>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/app/components/footer/pages-footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/page/consulting.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
@@ -625,17 +705,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/less/base/_base.less">
+    <entry file="file://$PROJECT_DIR$/app/less/components/menu/_menu.less">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="3502">
           <caret line="209" column="1" lean-forward="false" selection-start-line="209" selection-start-column="1" selection-end-line="209" selection-end-column="1" />
+=======
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="20" />
+          <folding />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/less/components/menu/_menu.less">
+    <entry file="file://$PROJECT_DIR$/app/page/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="20" />
+        <state relative-caret-position="850">
+          <caret line="50" column="31" lean-forward="false" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="36" />
           <folding />
 =======
     <entry file="file://$PROJECT_DIR$/app/page/consulting.html">
@@ -646,14 +732,22 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/app/less/components/footer/_footer.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6885">
           <caret line="405" column="29" lean-forward="false" selection-start-line="405" selection-start-column="29" selection-end-line="405" selection-end-column="29" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/js/comon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/app/components/footer/home-footer.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -665,10 +759,17 @@
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="20" />
 >>>>>>> Stashed changes
+=======
+    <entry file="file://$PROJECT_DIR$/app/less/pages/home/_home.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="175" column="5" lean-forward="false" selection-start-line="175" selection-start-column="5" selection-end-line="175" selection-end-column="5" />
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/app/less/pages/home/_home.less">
       <provider selected="true" editor-type-id="text-editor">
@@ -680,6 +781,12 @@
         <state relative-caret-position="850">
           <caret line="50" column="31" lean-forward="false" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="36" />
 >>>>>>> Stashed changes
+=======
+    <entry file="file://$PROJECT_DIR$/app/less/pages/_page.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4136">
+          <caret line="461" column="22" lean-forward="false" selection-start-line="461" selection-start-column="22" selection-end-line="461" selection-end-column="22" />
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
@@ -687,25 +794,38 @@
     <entry file="file://$PROJECT_DIR$/app/js/comon.js">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <state relative-caret-position="731">
           <caret line="43" column="25" lean-forward="false" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
 =======
         <state relative-caret-position="306">
           <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
 >>>>>>> Stashed changes
+=======
+        <state relative-caret-position="425">
+          <caret line="69" column="11" lean-forward="false" selection-start-line="69" selection-start-column="11" selection-end-line="71" selection-end-column="18" />
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
     </entry>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/app/page/consulting.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="12" lean-forward="false" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="63" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/less/base/_base.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="192" column="2" lean-forward="false" selection-start-line="192" selection-start-column="4" selection-end-line="200" selection-end-column="5" />
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/app/page/logistics.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -766,6 +886,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-437">
           <caret line="50" column="27" lean-forward="false" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/components/footer/pages-footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="35" />
+>>>>>>> Stashed changes
 =======
     <entry file="file://$PROJECT_DIR$/app/components/footer/pages-footer.html">
       <provider selected="true" editor-type-id="text-editor">
