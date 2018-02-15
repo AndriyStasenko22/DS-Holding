@@ -357,12 +357,35 @@
   background-color: @bg-footer;
   color: @footer-text-color;
   padding-top: 65px;
-  .page-contact-header, .copyright-block {
+  .page-contact-footer{
     width: 100%;
     max-width: 1683px;
     margin: 0 auto;
     padding-left: 54px;
     padding-right: 54px;
+    @media only screen and (max-width: 615px) {
+      padding: 0;
+    }
+  }
+  .scroll-up-block{
+    display: none;
+    @media only screen and (max-width: 615px) {
+      display: block;
+      margin-top: 25px;
+    }
+  }
+  .page-contact-header{
+    width: 100%;
+    max-width: 1683px;
+    margin: 0 auto;
+    padding-left: 54px;
+    padding-right: 54px;
+    @media only screen and (max-width: 768px) {
+      margin-bottom: 50px;
+    }
+    @media only screen and (max-width: 615px) {
+      margin-bottom: 0;
+    }
     @media only screen and (max-width: 500px) {
       padding-left: 30px;
       padding-right: 30px;
@@ -381,6 +404,9 @@
       background-color: @footer-text-color;
       @media only screen and (max-width: 768px) {
         width: 100%;
+      }
+      @media only screen and (max-width: 615px) {
+        display: none;
       }
     }
   }
@@ -474,6 +500,9 @@
       }
       textarea {
         top: 0px;
+      }
+      .send {
+        margin-top: 13px;
       }
     }
     @media only screen and (max-width: 378px) {

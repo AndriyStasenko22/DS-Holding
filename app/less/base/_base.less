@@ -190,21 +190,27 @@ input, textarea, button, select {
       color: @orange;
     }
   }
-
-  .menu-visible-block {
-    @media only screen and (max-width: 768px) {
-      margin: 0 -54px;
-      &:before {
-        height: 2px;
-      }
+  //
+  //.menu-visible-block {
+  //  @media only screen and (max-width: 768px) {
+  //    margin: 0 -54px;
+  //    &:before {
+  //      height: 2px;
+  //    }
+  //  }
+  //}
+  @media only screen and (max-width: 768px) {
+    margin: 0 -54px;
+    &:before {
+      height: 2px;
     }
-    @media only screen and (max-width: 615px) {
-      margin: 0;
-      .scroll-up {
-        width: 60px;
-        height: 60px;
-        line-height: 60px;
-      }
+  }
+  @media only screen and (max-width: 615px) {
+    margin: 0px;
+    .scroll-up {
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
     }
   }
 }
